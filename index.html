@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
     <title>Kanban Board</title>
 </head>
 <body>
@@ -11,30 +13,30 @@
             Simple Kanban Board
         </h1>
         <div class="board-container">
-            <div class="card">
+            <div class="card" id="card-1">
                 <h3 class="card-title">
                     To Do
                 </h3>
-                <p class="card-item" draggable="true">Wash Dishes</p>
-                <p class="card-item" draggable="true">Buy groceries</p>
+                <p class="card-item" draggable="true" id="card-item-1">Wash Dishes</p>
+                <p class="card-item" draggable="true" id="card-item-2">Buy groceries</p>
             </div>
-            <div class="card">
+            <div class="card" id="card-2">
                 <h3 class="card-title">
                     In Progress
                 </h3>
-                <p class="card-item" draggable="true">Learn code</p>
+                <p class="card-item" draggable="true" id="card-item-3">Learn code</p>
                 
             </div>
-            <div class="card">
+            <div class="card" id="card-3">
                 <h3 class="card-title">
                     Done
                 </h3>
-                <p class="card-item" draggable="true">Wash Dishes</p>
-                <
+                <p class="card-item" draggable="true" id="card-item-4">Wash Dishes</p>
+            
             </div>
         </div>
     </div>
 
-    
+    <script src="script.js"></script>
 </body>
 </html>
